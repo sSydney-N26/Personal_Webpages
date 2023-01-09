@@ -1,0 +1,134 @@
+body   
+{  
+height: 125vh;  
+margin-top: 80px;  
+padding: 0px;  
+background-size: cover;  
+font-family: calibri;
+font-size: 19px;  
+}  
+header {  
+background-color: #e5383b;  
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 5px;  
+height: 30px;  
+display: flex; 
+flex-wrap: wrap; 
+justify-content: center;
+align-items: center;     
+box-shadow: 0 0 40px 0 red;  
+}  
+header * {  
+display: inline;  
+}  
+header li {  
+margin: 50px;  
+}  
+header li a {  
+color: #fff0f3;  
+text-decoration: underline; 
+}  
+header a:hover{
+	background-color: yellow;
+	color: #ba181b;
+}
+
+h1{
+	color: white;
+	font-family: Georgia;
+	text-decoration: underline;
+}
+
+.box{
+	width: 65%;
+	height: 60%;
+	background-color: #ae2012;
+	padding-top: 40px;
+	position: absolute;
+	right: 32%;
+	border-color: white;
+}
+
+.box2{
+	width: 52.5%;
+	height: 50%;
+	background-color: #ae2012;
+	padding-top: 20px;
+}
+
+p{
+	color: white;
+	font-family: calibri;
+	font-size: 18px;
+}
+
+hr{
+	border: solid 3px;
+	width: 55%;
+	color: white;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/4 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+

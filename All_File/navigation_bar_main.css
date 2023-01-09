@@ -1,0 +1,41 @@
+body   
+{  
+height: 125vh;  
+margin-top: 80px;  
+padding: 0px;  
+background-size: cover;  
+font-family: calibri;
+font-size: 19px;  
+}  
+header {  
+background-color: #ffafcc;  
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 10px;  
+height: 30px;  
+display: flex; 
+flex-wrap: wrap; 
+justify-content: center;
+align-items: center;  
+box-shadow: 0 0 25px 0 black;  
+}  
+header * {  
+display: inline;  
+}  
+header li {  
+margin: 50px;  
+}  
+header li a {  
+color: black;  
+text-decoration: underline; 
+}  
+header a:hover{
+	background-color: purple;
+	color: white;
+}
+
+hr {
+border: 10px solid;
+color: #ffafcc;
+}
